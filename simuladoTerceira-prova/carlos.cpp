@@ -13,9 +13,7 @@ int main(){
     cout << "C";
 
     for(int i = 0; i < num;  i++){
-
         cout << "a";
-
     }
 
     cout << "rlos, que felicidade!" << endl;

@@ -10,11 +10,12 @@ int main(){
     int n; 
     string p;
 
-    cin >> n;
+    cin >> n >> p;
 
     string resultado = "";
     
     for (char caractere : p){
+        
         int valor = caractere - 'A';
 
         int novoValor = (valor - n + 26) % 26;
